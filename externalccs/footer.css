@@ -1,0 +1,12 @@
+.footer {
+    display: block;
+}
+
+p a {
+    color: black;
+}
+
+p a:hover:not(.active) {
+color: blue;
+}
+

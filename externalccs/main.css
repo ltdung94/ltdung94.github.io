@@ -1,0 +1,14 @@
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;  
+}
+
+.main {
+    display: block;
+    border-top: 2px solid #DCDCDC;
+    margin: 0 30px;
+    padding: 60px 0 20px;    
+}
+

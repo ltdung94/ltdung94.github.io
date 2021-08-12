@@ -1,0 +1,135 @@
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    [class*="col-"] {
+        float: left;
+    }
+ 
+    body {
+        margin: 0 70px;
+        padding: 0;
+    }
+
+    .menu, .banner, .main, .footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Menu: */
+    .menu {
+        list-style-type: none;
+        padding: 25px 60px 25px 40px;
+        width: auto;
+        margin: 0;
+        overflow: hidden;    
+        background-color: white;
+    }
+
+    li a {
+        float: left;
+        display: block;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #F8F8FF;
+    }
+
+    /* Banner: */
+    img {
+        display: block;
+        width: 100%;
+        height: auto;  
+        margin: 0;
+        padding: 0;
+    }
+
+    .position1 {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .position2 {
+        position: absolute;
+        top: 165px;
+        left: 90px;
+        line-height: 90%;
+        color: white;
+        font-size: 140%;
+        font-family: Source Serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .position2 p {
+        font-family: Arial;
+        font-size: 100%;
+    }
+
+    /* Main: */
+    section {
+        background-color: #eee;
+    }
+
+    .main {
+        display: block;
+        margin: 0;
+        padding: 60px 0 10px ;
+        border-bottom: 2px solid #DCDCDC;
+        font-size: 120%;
+    }
+
+    .main h2 {  
+        padding: 0 60px 0px 60px;
+    }
+
+    .main p {
+        padding: 0 60px 0px 60px;
+        margin-bottom: 60px;
+    }
+    
+    .picture {
+        padding: 0 35px;
+    }
+
+    .main img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 5px 10px 5px 20px;
+        margin: 0;
+    }
+
+    /* Footer: */
+    .footer {
+        display: block;
+        margin: 0;
+        padding: 30px 45px 40px 45px;
+        background-color: #F8F8FF;
+    }
+
+    .footer p {
+        font-size: 100%;
+    }
+
+    .footer .box {
+        padding: 0 5px 0 15px;    
+    }
+}
